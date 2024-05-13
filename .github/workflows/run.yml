@@ -31,9 +31,7 @@ jobs:
         run: |
           pip3 install requests
           user='${{ secrets.USER }}'
-          echo '${{ secrets.USER }}'
           passwd='${{ secrets.PWD }}' 
-          echo '${{ secrets.PWD }}' 
           open_get_weather='${{ secrets.OPEN_GET_WEATHER }}'
           area='${{ secrets.AREA }}'
           sckey='${{ secrets.SCKEY }}'
